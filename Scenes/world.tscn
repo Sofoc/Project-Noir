@@ -1,13 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://7hgw0wanipvk"]
+[gd_scene load_steps=3 format=3 uid="uid://7hgw0wanipvk"]
 
 [ext_resource type="PackedScene" uid="uid://caqrhrej5ghm8" path="res://Scenes/player.tscn" id="1_xnx5q"]
-[ext_resource type="PackedScene" uid="uid://c8x7nrmq5u5gy" path="res://platform.tscn" id="2_ganxy"]
 [ext_resource type="TileSet" uid="uid://bqvr6sfpvowvo" path="res://tileset.tres" id="3_8qj1m"]
 
 [node name="World" type="Node2D"]
-
-[node name="Platform" parent="." instance=ExtResource("2_ganxy")]
-position = Vector2(-15, 29)
 
 [node name="Player" parent="." instance=ExtResource("1_xnx5q")]
 position = Vector2(179, 389)
